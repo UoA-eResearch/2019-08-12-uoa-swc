@@ -245,7 +245,7 @@ e.g., '2015-06-10-esu'.
 {% endif %}
 
 <hr/>
-
+{% comment %}
 SYLLABUS
 
 Show what topics will be covered.
@@ -264,7 +264,6 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 <p>To be announced.</p>
-{% comment %}
 {% if page.carpentry == "swc" %}
 {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
