@@ -263,7 +263,6 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
-<p>To be announced.</p>
 {% if page.carpentry == "swc" %}
 {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
