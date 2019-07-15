@@ -246,7 +246,6 @@ e.g., '2015-06-10-esu'.
 
 <hr/>
 
-{% comment %}
 SYLLABUS
 
 Show what topics will be covered.
@@ -273,7 +272,6 @@ please preview your site before committing, and make sure to run
 {% elsif page.carpentry == "lc" %}
 {% include lc/syllabus.html %}
 {% endif %}
-{% endcomment %}
 <hr/>
 
 {% comment %}
